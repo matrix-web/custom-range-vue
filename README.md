@@ -1,24 +1,30 @@
 # range-slider
 
-## Project setup
+## Тестовое задание. Custom component range.
+
+Реализовать полностью кастомный "Range input" аналог input с type="range".
+На выходе долен быть Vue-component. Работать должен как на desktop так и на мобильной версии. На вход компонента должно поступать начальное значение процента. Компонент должен иметь возможность использовать директиву v-model.
+
+![Range](./preview/range.png "Range")
+![Range-25](./preview/range-25.png "Range 25")
+![Range-320](./preview/mobile-320.png "Range 320px")
+
+## Установка
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Компиляция и hot-reloads для режима разработки
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Компиляция и минификация для production
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Линтинг
 ```
-npm run lint
+ npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
